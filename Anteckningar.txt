@@ -4,3 +4,8 @@ iMint / Videnhance länkar och exjobb:
 https://weareimint.com/vidhance-sdk/
 http://www.diva-portal.org/smash/get/diva2:1666107/FULLTEXT01.pdf
 
+Gstreamer - spara till fil:
+gst-launch-1.0 rtspsrc location=rtsp://10.150.2.134:8554/rpicamuni latency=0 is-live=True ! queue ! decodebin ! x264enc ! matroskamux ! filesink location=stream.mkv
+
+Spara 10 sek klipp (https://github.com/DamZiobro/gstreamerCheatsheet):
+gst-launch-1.0 rtspsrc location=rtsp://10.150.2.134:8554/rpicamuni latency=0 is-live=True ! queue ! decodebin ! x264enc ! splitmuxsink location=file%02d.mp4 max-size-time=10000000000 max-files=20
