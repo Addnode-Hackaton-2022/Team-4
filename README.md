@@ -52,12 +52,15 @@ Här skall sista commiten till repot vara gjord och den muntliga presentationen 
 ### Övergripande beskrivning och val av utmaning
 <beskrivning här>
 
-### Team
+### Team WIP
 
 #### Namn på medlemmar 
-* <namn.>
-* <namn.>
-* <osv...>
+* Patrik Jönsson
+* Anton Sandström
+* Ola Ekelund
+* Mikael Ågren
+* Lars Rådman
+* Asgeir Aanonsen
 
 #### Hur har ni jobbat inom teamet? Har alla gjort samma eller har ni haft olika roller?
 <beskrivning.>
