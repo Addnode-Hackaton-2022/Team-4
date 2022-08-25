@@ -20,11 +20,11 @@ Detta skapar ett token med korrekt OAuth scope och du kan nu klona repot genom a
 * Gå igenom pp Agenda.pptx
 * Gå varvet runt och presentera era enligt frågorna ovan.
 * Välj en teamleader för erat team.
-  - Teamleader - Patrik Jönsson
+  - Patrik Jönsson
 * Välj ett namn för erat team. Detta skall även skrivas på dörren.
-  - Namn - Team WIP
+  - Team WIP
 * Vilken utmaning jobbar ni med?
-  - Namn - Stabilisera videoström
+  - Stabilisera videoström
  
  
  ### Andra uppgiften, deadline dag 2 kl 12:30
@@ -50,9 +50,8 @@ Här skall sista commiten till repot vara gjord och den muntliga presentationen 
 # Inskick, deadline dag två kl 12:30
 
 ### Övergripande beskrivning och val av utmaning
-<beskrivning här>
 
-### Team WIP
+#### Team WIP
 
 #### Namn på medlemmar 
 * Patrik Jönsson
@@ -63,20 +62,37 @@ Här skall sista commiten till repot vara gjord och den muntliga presentationen 
 * Asgeir Aanonsen
 
 #### Hur har ni jobbat inom teamet? Har alla gjort samma eller har ni haft olika roller?
-<beskrivning.>
+Jobba tillsammans för att dela upp arbetsuppgifter och undersöka olika sätt att lösa flödet.
+
 
 ### Teknik. Beskrivningen på eran teknikstack, språk och APIer ni har använt.
-<beskrivning.>
+* gstreamer - cli för att spara stream till fil
+* ffmpeg - cli för bildstabilisering
+* vid.stab - addon till ffmpeg
+* pyvideostab - python API för bildstabilisering
+* pymavlink - python API för läsa telemetridata från flightcontroller
+* GyroFlow - applikation för bildstabilisering med hjälp av telemetridata
+* QGroundControl - applikation för att läsa/skriva till flightcontroller
+
 
 ### Lösning, dessa frågor ska minst besvaras
  * Hur har ni löst utmaningen?
  * Hur långt har ni kommit?
  * Vad är nästa steg?
  * Några rekommendationer för framtiden?
- * Några insikter, begränsningar eller utmaningar ni stött på som är intressanta att dela med der av?
+ * Några insikter, begränsningar eller utmaningar ni stött på som är intressanta att dela med er av?
 
-<beskrivning.>
+#### Lösningsförslag
+1. gstreamer (gst-launch-1.0) för att läsa videostream till fil
+2. pymavlink för telemetridata
+3. ffmpeg + vid.stab/pyvideostab för bildstabilisering
+4. gstreamer (gst-play-1.0) för uppspelning av video
 
+#### TODO
+Applikation för att automatisera flöde i lösningsförslaget   
+Synka telemetridata om det ska användas för bildstabilisering (GyroFlow)   
+Kika på färdiga lösningar - iMint (videnhance sdk)   
+   
 
 # Mall för muntlig presentation, deadline dag två kl 12:30
 Den totala tiden av presentation får ni distribuera som ni vill men den måste hållas. Presentation i form av text skall vara i en powerpoint medans demo visar ni som ni vill. Tänk bara på att ni ska hinna på utsatt tid.
