@@ -1,1 +1,0 @@
-ffmpeg -i "https://svt1-c.akamaized.net/se/svt1/5eff9010-33e6-4944-b906-1e885e20d659/hls-v4/v4.m3u8" -vcodec copy -acodec copy "C:/Users/ansa2/Desktop/filtest.mp4"
