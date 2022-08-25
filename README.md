@@ -62,7 +62,7 @@ Här skall sista commiten till repot vara gjord och den muntliga presentationen 
 * Asgeir Aanonsen
 
 #### Hur har ni jobbat inom teamet? Har alla gjort samma eller har ni haft olika roller?
-Jobba tillsammans för att dela upp arbetsuppgifter och undersöka olika sätt att lösa flödet.
+Jobba tillsammans för att dela upp arbetsuppgifter och undersöka olika sätt att lösa flödet.  
 
 
 ### Teknik. Beskrivningen på eran teknikstack, språk och APIer ni har använt.
